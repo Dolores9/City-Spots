@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Het Park",
+      "location": {
+        "latitude": 51.90593,
+        "longitude": 4.46947
+      },
+      "type": "park",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "Kralingse Bos",
+      "location": {
+        "latitude": 51.93003,
+        "longitude": 4.53002
+      },
+      "type": "park",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "name": "Vroesenpark",
+      "location": {
+        "latitude": 51.9309,
+        "longitude": 4.4606
+      },
+      "type": "park",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "Zuiderpark",
+      "location": {
+        "latitude": 51.87472,
+        "longitude": 4.49833
+      },
+      "type": "park",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "Museumpark",
+      "location": {
+        "latitude": 51.91429,
+        "longitude": 4.47258
+      },
+      "type": "park",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "name": "Euromastpark",
+      "location": {
+        "latitude": 51.905,
+        "longitude": 4.469
+      },
+      "type": "park",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "name": "Park Rozenburg",
+      "location": {
+        "latitude": 51.91052,
+        "longitude": 4.48897
+      },
+      "type": "park",
+      "description": ""
+    },
+    {
+      "id": 8,
+      "name": "Eiland van Brienenoord",
+      "location": {
+        "latitude": 51.9006,
+        "longitude": 4.5418
+      },
+      "type": "park",
+      "description": ""
+    },
+    {
+      "id": 9,
+      "name": "Prinses Beatrixpark",
+      "location": {
+        "latitude": 51.9438,
+        "longitude": 4.4263
+      },
+      "type": "park",
+      "description": ""
+    },
+    {
+      "id": 10,
+      "name": "Het Lage Bergse Bos",
+      "location": {
+        "latitude": 51.97106,
+        "longitude": 4.53806
+      },
+      "type": "park",
+      "description": ""
+    }
+  ]
+}
