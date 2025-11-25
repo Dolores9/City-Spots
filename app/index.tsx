@@ -5,7 +5,6 @@ import {
   FlatList,
   TouchableOpacity,
   StyleSheet,
-  SafeAreaView,
   Dimensions,
 } from "react-native";
 import MapView, { Marker } from "react-native-maps";
@@ -13,6 +12,8 @@ import * as Location from "expo-location";
 import { useRouter, Stack } from "expo-router";
 import { ThemeContext } from "@/contexts/ThemeContext";
 import HotspotItem from "../components/HotspotItem";
+import { SafeAreaView } from "react-native-safe-area-context";
+
 
 type Hotspot = {
   id: number;
@@ -176,7 +177,7 @@ export default function HomeScreen() {
           </TouchableOpacity>
         </View>
 
-        //list of hotspots
+        {/* list of hotspots */}
         <View style={dynamicStyles.listContainer}>
           <FlatList
             data={hotspots}
@@ -198,7 +199,7 @@ export default function HomeScreen() {
             )}
           />
 
-          //buttons
+          {/* Buttons */}
           <View style={dynamicStyles.buttonWrapper}>
             <TouchableOpacity
               style={dynamicStyles.button}

@@ -9,7 +9,6 @@ function InnerLayout() {
 
     return (
         <>
-            //Dynamic background based on theme
             <Stack 
                 screenOptions={{ 
                     headerStyle: { backgroundColor: theme.colors.background }
