@@ -1,18 +1,18 @@
-import React, { useState, useEffect, useContext, useRef } from "react";
+import { ThemeContext } from "@/contexts/ThemeContext";
+import * as Location from "expo-location";
+import { Stack, useRouter } from "expo-router";
+import React, { useContext, useEffect, useRef, useState } from "react";
 import {
-  View,
-  Text,
-  FlatList,
-  TouchableOpacity,
-  StyleSheet,
   Dimensions,
+  FlatList,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
 import MapView, { Marker } from "react-native-maps";
-import * as Location from "expo-location";
-import { useRouter, Stack } from "expo-router";
-import { ThemeContext } from "@/contexts/ThemeContext";
-import HotspotItem from "../components/HotspotItem";
 import { SafeAreaView } from "react-native-safe-area-context";
+import HotspotItem from "../components/HotspotItem";
 
 
 type Hotspot = {
@@ -70,8 +70,6 @@ export default function HomeScreen() {
     container: {
       flex: 1,
       backgroundColor: isDarkMode ? "#121212" : "#ffffffe4",
-      paddingHorizontal: 10,
-      paddingTop: 10,
     },
     header: {
       fontSize: 24,
